@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1705.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceExample", "InheritanceExample.csproj", "{061F9E81-797D-4C8F-8671-52B5FAE73D73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceClassLibrary", "..\InheritanceClassLibrary\InheritanceClassLibrary.csproj", "{E6819A97-E267-4E17-8EDA-6A16B70F7886}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{061F9E81-797D-4C8F-8671-52B5FAE73D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{061F9E81-797D-4C8F-8671-52B5FAE73D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{061F9E81-797D-4C8F-8671-52B5FAE73D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6819A97-E267-4E17-8EDA-6A16B70F7886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6819A97-E267-4E17-8EDA-6A16B70F7886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6819A97-E267-4E17-8EDA-6A16B70F7886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6819A97-E267-4E17-8EDA-6A16B70F7886}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
