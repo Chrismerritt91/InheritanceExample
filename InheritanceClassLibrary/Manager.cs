@@ -27,10 +27,16 @@
         return Department + " at " + base.Location;
     }
 
-    //method overriding
+    //method overriding and abstract methods
+
+    //public sealed override string GetHealthInsuranceAmount()
+    //{
+    //    Console.WriteLine(base.GetHealthInsuranceAmount());
+    //    return "Additional Health Insurance Premium Amount is: " + 1000;
+    //}
+
     public sealed override string GetHealthInsuranceAmount()
     {
-        Console.WriteLine(base.GetHealthInsuranceAmount());
         return "Additional Health Insurance Premium Amount is: " + 1000;
     }
 

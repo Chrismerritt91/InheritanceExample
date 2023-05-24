@@ -1,4 +1,4 @@
-﻿public class Employee
+﻿public abstract class Employee
 {
 
     //fields
@@ -21,13 +21,16 @@
     public string EmpName { get { return _empName; } set { _empName = value; } }
     public string Location { get { return _location; } set { _location = value; } }
 
-    //methods
+    //abstract method
 
-    //example for method hiding
-    public virtual string GetHealthInsuranceAmount()
-    {
-        return "Health Insurance Amount is: " + 500;
-    }
+    public abstract string GetHealthInsuranceAmount();
+
+    ////example for method hiding
+    ///
+    //public virtual string GetHealthInsuranceAmount()
+    //{
+    //    return "Health Insurance Amount is: " + 500;
+    //}
 
 
 }

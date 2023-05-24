@@ -4,14 +4,14 @@
     static void Main()
     {
 
-        //create object of employee
-        Employee emp1 = new Employee(101, "Scott", "Hyderabad");
-        Console.WriteLine("Object of Parent class (Employee):");
-        Console.WriteLine(emp1.EmpID);
-        Console.WriteLine(emp1.EmpName);
-        Console.WriteLine(emp1.Location);
-        Console.WriteLine(emp1.GetHealthInsuranceAmount());
-        Console.WriteLine();
+        //create object of employee // employee is now abstract / cant create object
+        //Employee emp1 = new Employee(101, "Scott", "Hyderabad");
+        //Console.WriteLine("Object of Parent class (Employee):");
+        //Console.WriteLine(emp1.EmpID);
+        //Console.WriteLine(emp1.EmpName);
+        //Console.WriteLine(emp1.Location);
+        //Console.WriteLine(emp1.GetHealthInsuranceAmount());
+        //Console.WriteLine();
 
 
         //create object of manager
@@ -23,7 +23,7 @@
         Console.WriteLine(mgr1.Department);
         Console.WriteLine(mgr1.GetTotalSalesOfTheYear());
         Console.WriteLine(mgr1.GetFullDepartmentName());
-        Console.WriteLine(mgr1.GetHealthInsuranceAmount());
+        Console.WriteLine(mgr1.GetHealthInsuranceAmount());//Manager.GetHealthInsuranceAmount
         Console.WriteLine();
 
         //create object of salesman
@@ -34,6 +34,7 @@
         Console.WriteLine(salesman1.Location);
         Console.WriteLine(salesman1.Region);
         Console.WriteLine(salesman1.GetSalesOfTheCurrentMonth());
+        Console.WriteLine(salesman1.GetHealthInsuranceAmount());//Salesman.GetHealthInsuranceAmount
         Console.WriteLine();
 
         Console.ReadKey();
